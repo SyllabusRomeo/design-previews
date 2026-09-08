@@ -2,9 +2,9 @@
 
 Internal decision board for choosing a visual language for the **TradeFlow** admin portal, using official **Koa** brand colours and type.
 
-Live preview (temporary): https://cozy-ivory-kt2e.here.now/
+Live site: https://syllabusromeo.github.io/design-previews/
 
-**Permanent free hosting (no paid plan, no domain purchase):** see [HOSTING.md](./HOSTING.md) — recommended: GitHub Pages at `https://SyllabusRomeo.github.io/design-previews/` after you enable Pages on this repo.
+(Temporary here.now preview may still exist; GitHub Pages is the permanent free host — see [HOSTING.md](./HOSTING.md).)
 
 Brand source: [Koa Frontify Style Guide](https://company-164955.frontify.com/d/vAejAP8xgb73/style-guide)
 
