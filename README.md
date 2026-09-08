@@ -4,6 +4,8 @@ Internal decision board for choosing a visual language for the **TradeFlow** adm
 
 Live preview (temporary): https://cozy-ivory-kt2e.here.now/
 
+**Permanent free hosting (no paid plan, no domain purchase):** see [HOSTING.md](./HOSTING.md) — recommended: GitHub Pages at `https://SyllabusRomeo.github.io/design-previews/` after you enable Pages on this repo.
+
 Brand source: [Koa Frontify Style Guide](https://company-164955.frontify.com/d/vAejAP8xgb73/style-guide)
 
 ---
@@ -162,10 +164,28 @@ Edit `portals/shared.css` and the HTML pattern used by all portals. Icons are in
 
 ---
 
+## Permanent hosting (free)
+
+Do not rely on here.now for the lasting board (TTL / 24h limits). Full guide:
+
+→ **[HOSTING.md](./HOSTING.md)**
+
+Quick pick:
+
+| Option | Free URL | Custom domain needed? |
+|--------|----------|------------------------|
+| **GitHub Pages** (recommended) | `SyllabusRomeo.github.io/design-previews` | No |
+| Cloudflare Pages | `*.pages.dev` | No |
+| Netlify | `*.netlify.app` | No |
+| Vercel | `*.vercel.app` | No |
+
+Enable GitHub Pages: repo **Settings → Pages → Deploy from a branch → `main` / root**.
+
+---
+
 ## Notes
 
 - These are **static mockups** for visual decision-making. TradeFlow itself is a Flask app and needs a real staging/local run for interaction testing.  
-- The here.now URL above may expire; host from this repo (GitHub Pages, Netlify, or local) for a lasting board.  
 - Do not commit API keys or `.herenow/` credentials into this repository.
 
 ---
