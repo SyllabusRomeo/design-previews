@@ -1,0 +1,24 @@
+.material {
+  color: var(--koa-blue);
+  background: var(--koa-cream);
+}
+.material .back {
+  background: var(--koa-mint); color: var(--koa-blue); border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+.material .side { background: var(--koa-blue); color: #fff; border-radius: 0 28px 28px 0; }
+.material .logo { color: var(--koa-gold); }
+.material .side a { border-radius: 28px; color: rgba(255,255,255,.75); }
+.material .side a.active { background: var(--koa-teal); color: #fff; }
+.material .btn {
+  background: var(--koa-teal); color: #fff; border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25); text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85rem;
+}
+.material .card, .material .panel {
+  background: #fff; border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.06);
+}
+.material th { color: var(--koa-text-muted); border-bottom: 1px solid var(--koa-mint); }
+.material td { border-bottom: 1px solid #f3edf7; }
+.material .tag { background: var(--koa-mint); color: var(--koa-blue); border-radius: 8px; }
+.material .tag.warn { background: #ffd4c4; color: #8a2000; }

@@ -1,0 +1,15 @@
+.mini {
+  color: var(--koa-blue);
+  background: var(--koa-cloud);
+}
+.mini .back { color: var(--koa-gray); border: 1px solid #e5e5e5; background: #fff; border-radius: 6px; }
+.mini .side { background: #fff; border-right: 1px solid #eee; }
+.mini .logo { color: var(--koa-teal); }
+.mini .side a { color: var(--koa-gray); border-radius: 6px; }
+.mini .side a.active { color: var(--koa-blue); background: var(--koa-cloud); }
+.mini .btn { background: var(--koa-blue); color: #fff; border-radius: 6px; }
+.mini .card, .mini .panel { background: #fff; border: 1px solid #eee; border-radius: 8px; }
+.mini th { color: var(--koa-gray); border-bottom: 1px solid #eee; font-weight: 400; }
+.mini td { border-bottom: 1px solid #f5f5f5; }
+.mini .tag { color: var(--koa-teal); background: transparent; padding: 0; }
+.mini .tag.warn { color: var(--koa-orange); }

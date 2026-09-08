@@ -1,0 +1,32 @@
+.organic {
+  color: var(--koa-blue);
+  background:
+    radial-gradient(ellipse at 20% 10%, var(--koa-mint) 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 80%, var(--koa-lemon) 0%, transparent 40%),
+    linear-gradient(180deg, var(--koa-cream), var(--koa-mint));
+}
+.organic .back {
+  background: var(--koa-mint); color: var(--koa-teal); border-radius: 999px 40px 999px 40px;
+  border: 1px solid var(--koa-teal);
+}
+.organic .side {
+  margin: 0.75rem 0 0.75rem 0.75rem; background: var(--koa-cream);
+  border-radius: 40% 60% 50% 50% / 50% 40% 60% 50%; border: 1px solid var(--koa-teal);
+}
+.organic .logo { color: var(--koa-teal); }
+.organic .side a { border-radius: 999px 20px 999px 20px; color: var(--koa-teal); }
+.organic .side a.active { background: var(--koa-mint); color: var(--koa-blue); }
+.organic .btn {
+  background: var(--koa-teal); color: #fff; border-radius: 999px 30px 999px 30px;
+  box-shadow: 0 8px 20px rgba(0,174,141,.25);
+}
+.organic .card, .organic .panel {
+  background: rgba(255,255,255,.72); border: 1px solid var(--koa-mint);
+  border-radius: 28px 48px 32px 40px;
+}
+.organic .card:nth-child(2) { border-radius: 48px 28px 40px 32px; }
+.organic .card:nth-child(3) { border-radius: 32px 40px 28px 48px; }
+.organic th { color: var(--koa-teal); border-bottom: 1px solid var(--koa-mint); }
+.organic td { border-bottom: 1px solid var(--koa-cream); }
+.organic .tag { background: var(--koa-mint); color: #003028; border-radius: 999px; }
+.organic .tag.warn { background: #ffd4c4; color: var(--koa-orange); }

@@ -1,0 +1,18 @@
+.term {
+  color: var(--koa-green);
+  background: #02140f;
+}
+.term .back { color: var(--koa-green); border: 1px solid var(--koa-green); background: #02140f; border-radius: 0; }
+.term .side { background: #01100c; border-right: 1px solid #1f3d30; }
+.term .logo { color: var(--koa-gold); }
+.term .side a { color: #7dffb8; border-radius: 0; font-size: 0.85rem; }
+.term .side a.active { background: #0a2a1c; color: var(--koa-green); box-shadow: inset 3px 0 0 var(--koa-green); }
+.term .top h1 { font-size: 1.25rem; font-family: var(--koa-font); font-weight: 700; }
+.term .sub { color: #1f8f5a; }
+.term .btn { background: #0a2a1c; color: var(--koa-green); border: 1px solid var(--koa-green); border-radius: 0; text-transform: lowercase; }
+.term .card, .term .panel { background: #01100c; border: 1px solid #1f3d30; border-radius: 0; }
+.term .card .label { color: #1f8f5a; }
+.term th { color: #1f8f5a; border-bottom: 1px dashed #1f3d30; text-transform: lowercase; }
+.term td { border-bottom: 1px dashed #142816; }
+.term .tag { border: 1px solid var(--koa-green); color: var(--koa-green); background: transparent; border-radius: 0; }
+.term .tag.warn { border-color: var(--koa-gold); color: var(--koa-gold); }

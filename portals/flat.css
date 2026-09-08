@@ -1,0 +1,14 @@
+.flat {
+  color: var(--koa-blue);
+  background: var(--koa-cloud);
+}
+.flat .back { background: #fff; border: 1px solid #d1d5db; border-radius: 4px; color: var(--koa-blue); }
+.flat .side { background: var(--koa-blue); color: #fff; }
+.flat .side a { color: rgba(255,255,255,.7); border-radius: 4px; }
+.flat .side a.active { background: var(--koa-teal); color: #fff; }
+.flat .btn { background: var(--koa-teal); color: #fff; border-radius: 4px; }
+.flat .card, .flat .panel { background: #fff; border-radius: 4px; border: 1px solid #e5e7eb; }
+.flat th { color: var(--koa-gray); border-bottom: 1px solid #e5e7eb; }
+.flat td { border-bottom: 1px solid #f3f4f6; }
+.flat .tag { background: var(--koa-mint); color: #003028; border-radius: 2px; }
+.flat .tag.warn { background: #ffd4c4; color: #8a2000; }

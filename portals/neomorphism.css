@@ -1,0 +1,22 @@
+.neo {
+  --bg: var(--koa-cloud);
+  color: var(--koa-blue);
+  background: var(--bg);
+}
+.neo .back, .neo .btn, .neo .card, .neo .panel, .neo .side a {
+  background: var(--bg);
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px #c5ccd4, -6px -6px 12px #ffffff;
+  color: var(--koa-blue);
+}
+.neo .side { background: var(--bg); box-shadow: inset -10px 0 20px #c5ccd4, inset 4px 0 8px #fff; }
+.neo .side a.active {
+  box-shadow: inset 5px 5px 10px #c5ccd4, inset -5px -5px 10px #fff;
+  color: var(--koa-teal);
+}
+.neo .btn { color: var(--koa-teal); font-weight: 700; }
+.neo .card, .neo .panel { border-radius: 22px; box-shadow: 10px 10px 20px #c5ccd4, -10px -10px 20px #fff; }
+.neo th { color: var(--koa-gray); }
+.neo td { border-bottom: 1px solid rgba(171,171,171,.35); }
+.neo .tag { border-radius: 999px; background: var(--bg); color: var(--koa-teal); box-shadow: 3px 3px 6px #c5ccd4, -3px -3px 6px #fff; }
+.neo .tag.warn { color: var(--koa-orange); }

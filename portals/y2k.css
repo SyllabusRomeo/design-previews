@@ -1,0 +1,34 @@
+.y2k {
+  color: var(--koa-blue);
+  background:
+    radial-gradient(circle at 10% 20%, var(--koa-orange) 0 8%, transparent 9%),
+    radial-gradient(circle at 90% 30%, var(--koa-green) 0 10%, transparent 11%),
+    radial-gradient(circle at 40% 90%, var(--koa-gold) 0 9%, transparent 10%),
+    linear-gradient(160deg, var(--koa-lavender), var(--koa-mint) 40%, var(--koa-cream));
+}
+.y2k .back {
+  background: linear-gradient(#fff, var(--koa-lavender)); border: 3px outset var(--koa-teal);
+  border-radius: 12px; color: var(--koa-blue);
+}
+.y2k .side {
+  background: linear-gradient(180deg, var(--koa-mint), var(--koa-lavender));
+  border-right: 4px ridge var(--koa-teal);
+}
+.y2k .logo { font-size: 1.1rem; color: var(--koa-blue); text-shadow: 2px 2px 0 var(--koa-gold); }
+.y2k .side a {
+  background: #fff; border: 2px outset var(--koa-teal); border-radius: 10px; color: var(--koa-blue);
+}
+.y2k .side a.active { background: linear-gradient(var(--koa-gold), var(--koa-orange)); border-style: inset; color: #fff; }
+.y2k .top h1 { color: var(--koa-blue); text-shadow: 3px 3px 0 var(--koa-gold); font-family: var(--koa-font); font-weight: 700; }
+.y2k .btn {
+  background: linear-gradient(var(--koa-gold), var(--koa-orange)); border: 3px outset var(--koa-orange);
+  border-radius: 999px; color: #fff;
+}
+.y2k .card, .y2k .panel {
+  background: rgba(255,255,255,.9); border: 3px outset var(--koa-lavender); border-radius: 18px;
+  box-shadow: 6px 6px 0 rgba(0,16,159,.2);
+}
+.y2k th { color: var(--koa-blue); border-bottom: 2px dotted var(--koa-teal); }
+.y2k td { border-bottom: 1px dotted var(--koa-lavender); }
+.y2k .tag { background: linear-gradient(var(--koa-mint), var(--koa-green)); border: 2px outset var(--koa-teal); border-radius: 999px; color: #003028; }
+.y2k .tag.warn { background: linear-gradient(#ffd4c4, var(--koa-orange)); border-color: var(--koa-orange); color: #fff; }

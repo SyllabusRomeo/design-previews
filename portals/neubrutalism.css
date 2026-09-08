@@ -1,0 +1,29 @@
+.neubrute {
+  color: var(--koa-blue);
+  background: var(--koa-cream);
+}
+.neubrute .back {
+  background: var(--koa-gold); border: 2px solid var(--koa-blue); border-radius: 10px;
+  box-shadow: 3px 3px 0 var(--koa-blue); color: var(--koa-blue);
+}
+.neubrute .side { background: #fff; border-right: 2px solid var(--koa-blue); }
+.neubrute .side a { border: 2px solid transparent; border-radius: 10px; }
+.neubrute .side a.active {
+  background: var(--koa-mint); border-color: var(--koa-blue); box-shadow: 3px 3px 0 var(--koa-blue);
+}
+.neubrute .btn {
+  background: var(--koa-orange); color: #fff; border: 2px solid var(--koa-blue);
+  border-radius: 10px; box-shadow: 4px 4px 0 var(--koa-blue);
+}
+.neubrute .card, .neubrute .panel {
+  background: #fff; border: 2px solid var(--koa-blue); border-radius: 14px;
+  box-shadow: 5px 5px 0 var(--koa-blue);
+}
+.neubrute .card:nth-child(1) { background: var(--koa-soft-yellow); }
+.neubrute .card:nth-child(2) { background: var(--koa-mint); }
+.neubrute .card:nth-child(3) { background: #ffd4c4; }
+.neubrute .card:nth-child(4) { background: var(--koa-lavender); }
+.neubrute th, .neubrute td { border-bottom: 1px solid var(--koa-blue); }
+.neubrute th { border-bottom-width: 2px; }
+.neubrute .tag { background: var(--koa-mint); border: 2px solid var(--koa-blue); border-radius: 6px; color: var(--koa-blue); }
+.neubrute .tag.warn { background: #ffd4c4; }

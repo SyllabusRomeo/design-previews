@@ -1,0 +1,44 @@
+.spatial {
+  color: var(--koa-cloud);
+  background:
+    radial-gradient(1200px 700px at 50% -10%, #003080 0%, transparent 55%),
+    radial-gradient(800px 500px at 100% 100%, #005544 0%, transparent 50%),
+    linear-gradient(180deg, #000520, #001040 50%, #001820);
+  perspective: 1400px;
+}
+.spatial .back {
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
+  border-radius: 12px; backdrop-filter: blur(12px);
+}
+.spatial .side {
+  margin: 1rem 0 1rem 1rem; border-radius: 28px; background: rgba(0, 24, 80, .72);
+  border: 1px solid rgba(255,255,255,.12); backdrop-filter: blur(20px);
+  box-shadow: 0 30px 60px rgba(0,0,0,.45);
+}
+.spatial .logo {
+  background: linear-gradient(90deg, var(--koa-mint), var(--koa-gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.spatial .side a { border-radius: 14px; color: rgba(244,246,247,.7); }
+.spatial .side a.active {
+  background: rgba(0,174,141,.22); border: 1px solid rgba(0,204,153,.4); color: #fff;
+}
+.spatial .btn {
+  border-radius: 14px; color: var(--koa-blue);
+  background: linear-gradient(135deg, var(--koa-mint), var(--koa-gold));
+}
+.spatial .kpis { transform: rotateX(8deg) translateZ(20px); transform-origin: center top; }
+.spatial .card {
+  background: linear-gradient(180deg, rgba(0,48,120,.75), rgba(0,24,60,.8));
+  border: 1px solid rgba(255,255,255,.14); border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(0,0,0,.4);
+}
+.spatial .panel {
+  background: rgba(0, 20, 60, .78); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 24px; backdrop-filter: blur(16px);
+}
+.spatial th { color: rgba(244,246,247,.5); border-bottom: 1px solid rgba(255,255,255,.1); }
+.spatial td { border-bottom: 1px solid rgba(255,255,255,.06); }
+.spatial .tag { border-radius: 8px; background: rgba(0,174,141,.2); border: 1px solid var(--koa-teal); color: var(--koa-mint); }
+.spatial .tag.warn { background: rgba(255,69,0,.2); border-color: var(--koa-orange); color: #ffd0c0; }
+@media (max-width: 960px) { .spatial .kpis { transform: none; } }

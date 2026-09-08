@@ -1,0 +1,23 @@
+.swiss {
+  color: var(--koa-blue);
+  background: var(--koa-white);
+}
+.swiss .back { color: var(--koa-blue); border-bottom: 1px solid var(--koa-blue); border-radius: 0; padding-left: 0; padding-right: 0; }
+.swiss .side { background: #fff; border-right: 1px solid var(--koa-blue); }
+.swiss .logo { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.85rem; font-weight: 700; font-family: var(--koa-font); }
+.swiss .side a {
+  border-radius: 0; border-left: 2px solid transparent; text-transform: uppercase;
+  font-size: 0.75rem; letter-spacing: 0.08em; color: var(--koa-gray);
+}
+.swiss .side a.active { border-left-color: var(--koa-blue); color: var(--koa-blue); }
+.swiss .top h1 { font-family: var(--koa-font); font-weight: 700; text-transform: uppercase; }
+.swiss .sub { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.7rem; }
+.swiss .btn { background: var(--koa-blue); color: #fff; border-radius: 0; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; }
+.swiss .card, .swiss .panel { background: #fff; border: 1px solid var(--koa-blue); border-radius: 0; }
+.swiss .kpis { gap: 0; }
+.swiss .card { border-right: none; }
+.swiss .card:last-child { border-right: 1px solid var(--koa-blue); }
+.swiss th { text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.1em; border-bottom: 1px solid var(--koa-blue); }
+.swiss td { border-bottom: 1px solid #ddd; }
+.swiss .tag { border: 1px solid var(--koa-blue); border-radius: 0; text-transform: uppercase; font-size: 0.65rem; }
+.swiss .tag.warn { background: var(--koa-blue); color: #fff; }

@@ -1,0 +1,30 @@
+.holo {
+  color: var(--koa-blue);
+  background: linear-gradient(120deg, var(--koa-mint), var(--koa-lavender), var(--koa-gold), var(--koa-cream), var(--koa-teal), var(--koa-mint));
+  background-size: 300% 300%;
+  animation: holoShift 10s linear infinite;
+}
+@keyframes holoShift { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }
+.holo .back, .holo .card, .holo .panel, .holo .side {
+  background: linear-gradient(135deg, rgba(255,255,255,.55), rgba(255,255,255,.2));
+  border: 1px solid rgba(255,255,255,.65); backdrop-filter: blur(14px);
+  box-shadow: inset 0 0 24px rgba(255,255,255,.4), 0 12px 36px rgba(0,16,159,.12);
+}
+.holo .back { border-radius: 12px; }
+.holo .side { margin: 0.75rem; border-radius: 22px; }
+.holo .logo {
+  background: linear-gradient(90deg, var(--koa-orange), var(--koa-blue), var(--koa-teal), var(--koa-gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700;
+}
+.holo .side a { border-radius: 12px; color: rgba(0,16,159,.75); }
+.holo .side a.active { background: rgba(255,255,255,.55); color: var(--koa-blue); }
+.holo .btn {
+  border-radius: 12px; color: #fff;
+  background: linear-gradient(90deg, var(--koa-orange), var(--koa-blue), var(--koa-teal));
+  background-size: 200% 200%; animation: holoShift 4s linear infinite;
+}
+.holo .card, .holo .panel { border-radius: 18px; }
+.holo th { color: rgba(0,16,159,.55); border-bottom: 1px solid rgba(255,255,255,.45); }
+.holo td { border-bottom: 1px solid rgba(255,255,255,.28); }
+.holo .tag { border-radius: 999px; background: rgba(255,255,255,.5); border: 1px solid rgba(255,255,255,.8); color: var(--koa-teal); }
+.holo .tag.warn { color: var(--koa-orange); }

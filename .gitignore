@@ -1,0 +1,14 @@
+# Local
+.DS_Store
+Thumbs.db
+*.log
+_*
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets / publish state
+.herenow/
+.env
+credentials

@@ -1,0 +1,54 @@
+/* Bridge so portal pages can load brand tokens with correct font paths */
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/mn-book.woff2") format("woff2"), url("../fonts/mn-book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/mn-bold.woff2") format("woff2"), url("../fonts/mn-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Koa Display";
+  src: url("../fonts/frl-regular.woff2") format("woff2"), url("../fonts/frl-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --koa-blue: #00109F;
+  --koa-teal: #00AE8D;
+  --koa-green: #00CC99;
+  --koa-orange: #FF4500;
+  --koa-gold: #FFD700;
+  --koa-cream: #FFF2DE;
+  --koa-mint: #E0F5EE;
+  --koa-lemon: #FFFACD;
+  --koa-soft-yellow: #FFF19A;
+  --koa-lavender: #E6E6FA;
+  --koa-gray: #ABABAB;
+  --koa-cloud: #F4F6F7;
+  --koa-white: #FFFFFF;
+  --koa-black: #000000;
+  --koa-text: var(--koa-blue);
+  --koa-text-muted: #4a5680;
+  --koa-surface: var(--koa-white);
+  --koa-page: var(--koa-cream);
+  --koa-border: rgba(0, 16, 159, 0.16);
+  --koa-success: var(--koa-teal);
+  --koa-danger: var(--koa-orange);
+  --koa-warning: var(--koa-gold);
+  --koa-chrome: linear-gradient(135deg, var(--koa-blue) 0%, var(--koa-teal) 100%);
+  --koa-accent-gradient: linear-gradient(135deg, var(--koa-teal) 0%, var(--koa-green) 100%);
+  --koa-font: "Maison Neue", "Segoe UI", sans-serif;
+  --koa-font-display: "Koa Display", "Maison Neue", sans-serif;
+}

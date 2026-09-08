@@ -1,0 +1,28 @@
+.glass {
+  color: var(--koa-white);
+  background:
+    radial-gradient(900px 500px at 15% 20%, var(--koa-teal) 0%, transparent 55%),
+    radial-gradient(700px 500px at 85% 10%, var(--koa-blue) 0%, transparent 50%),
+    radial-gradient(800px 600px at 70% 90%, var(--koa-green) 0%, transparent 45%),
+    linear-gradient(160deg, #000840, #001a60 60%, #003040);
+  background-attachment: fixed;
+}
+.glass .back, .glass .card, .glass .panel, .glass .side {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.22);
+  backdrop-filter: blur(18px) saturate(1.35);
+}
+.glass .back { border-radius: 999px; color: #fff; }
+.glass .side { border-right: 1px solid rgba(255,255,255,.18); backdrop-filter: blur(22px); }
+.glass .side a { border-radius: 12px; color: rgba(255,255,255,.78); }
+.glass .side a.active { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); color: #fff; }
+.glass .btn {
+  border-radius: 12px; color: var(--koa-blue);
+  background: linear-gradient(135deg, rgba(255,255,255,.9), var(--koa-mint));
+  border: 1px solid rgba(255,255,255,.5);
+}
+.glass .card, .glass .panel { border-radius: 18px; box-shadow: 0 10px 40px rgba(0,0,0,.25); }
+.glass th { color: rgba(255,255,255,.65); border-bottom: 1px solid rgba(255,255,255,.15); }
+.glass td { border-bottom: 1px solid rgba(255,255,255,.08); }
+.glass .tag { border-radius: 999px; background: rgba(0,174,141,.25); border: 1px solid var(--koa-teal); color: var(--koa-mint); }
+.glass .tag.warn { background: rgba(255,69,0,.25); border-color: var(--koa-orange); color: #ffd0c0; }

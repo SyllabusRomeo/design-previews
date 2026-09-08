@@ -1,0 +1,35 @@
+.industrial {
+  color: var(--koa-cloud);
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    #12161c;
+  background-size: 24px 24px, 24px 24px, auto;
+}
+.industrial .back {
+  text-transform: uppercase; letter-spacing: 0.08em; background: #2a2f36;
+  color: var(--koa-gold); border: 1px solid #4a5560; border-radius: 2px;
+}
+.industrial .side { background: #0e1218; border-right: 3px solid var(--koa-gold); }
+.industrial .logo { text-transform: uppercase; letter-spacing: 0.12em; color: var(--koa-gold); font-family: var(--koa-font); font-weight: 700; }
+.industrial .side a {
+  text-transform: uppercase; letter-spacing: 0.06em; color: #9aa3ad;
+  border-left: 3px solid transparent; border-radius: 0;
+}
+.industrial .side a.active { background: #22272e; border-left-color: var(--koa-gold); color: #fff; }
+.industrial .top h1 { font-family: var(--koa-font); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.industrial .btn {
+  text-transform: uppercase; letter-spacing: 0.08em; background: var(--koa-gold);
+  color: #14171b; border-radius: 2px;
+}
+.industrial .card, .industrial .panel {
+  background: #22272e; border: 1px solid #3a424c; border-radius: 2px;
+}
+.industrial .card .label { text-transform: uppercase; letter-spacing: 0.08em; color: #9aa3ad; }
+.industrial th { text-transform: uppercase; letter-spacing: 0.08em; color: var(--koa-gold); border-bottom: 1px solid #3a424c; }
+.industrial td { border-bottom: 1px solid #2a3038; color: #c5cbd3; }
+.industrial .tag {
+  text-transform: uppercase; letter-spacing: 0.06em; background: #0a2a22;
+  color: var(--koa-green); border: 1px solid var(--koa-teal); border-radius: 2px;
+}
+.industrial .tag.warn { background: #4a2800; color: var(--koa-gold); border-color: var(--koa-gold); }

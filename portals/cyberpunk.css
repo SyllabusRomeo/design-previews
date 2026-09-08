@@ -1,0 +1,31 @@
+.cyber {
+  color: var(--koa-mint);
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.75)),
+    repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,204,153,.04) 2px 3px),
+    radial-gradient(circle at 20% 10%, rgba(255,69,0,.25), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(0,174,141,.25), transparent 40%),
+    #020510;
+}
+.cyber .back {
+  color: var(--koa-green); border: 1px solid var(--koa-green); background: rgba(0,204,153,.08);
+  border-radius: 0; text-transform: uppercase; font-size: 0.65rem;
+  box-shadow: 0 0 12px rgba(0,204,153,.35);
+}
+.cyber .side { background: rgba(0,10,40,.95); border-right: 1px solid var(--koa-orange); }
+.cyber .logo { color: var(--koa-orange); text-shadow: 0 0 12px var(--koa-orange); letter-spacing: 0.08em; }
+.cyber .side a { color: var(--koa-mint); border: 1px solid transparent; text-transform: uppercase; font-size: 0.8rem; }
+.cyber .side a.active { border-color: var(--koa-green); color: var(--koa-green); background: rgba(0,204,153,.1); }
+.cyber .top h1 { text-transform: uppercase; color: #fff; text-shadow: 0 0 18px rgba(0,204,153,.5); font-family: var(--koa-font); font-weight: 700; }
+.cyber .btn {
+  background: transparent; color: var(--koa-orange); border: 1px solid var(--koa-orange);
+  text-transform: uppercase; box-shadow: 0 0 16px rgba(255,69,0,.35); border-radius: 0;
+}
+.cyber .card, .cyber .panel {
+  background: rgba(0,16,50,.8); border: 1px solid rgba(0,204,153,.35); border-radius: 0;
+  box-shadow: 0 0 24px rgba(0,204,153,.08);
+}
+.cyber th { color: var(--koa-green); border-bottom: 1px solid rgba(0,204,153,.3); text-transform: uppercase; font-size: 0.75rem; }
+.cyber td { border-bottom: 1px solid rgba(0,204,153,.12); }
+.cyber .tag { border: 1px solid var(--koa-green); color: var(--koa-green); background: rgba(0,204,153,.1); border-radius: 0; text-transform: uppercase; }
+.cyber .tag.warn { border-color: var(--koa-orange); color: var(--koa-orange); background: rgba(255,69,0,.1); }

@@ -1,0 +1,17 @@
+.edit {
+  color: var(--koa-blue);
+  background: var(--koa-cream);
+}
+.edit .back { color: var(--koa-blue); border-bottom: 1px solid var(--koa-blue); border-radius: 0; font-style: italic; }
+.edit .side { background: #f5ead6; border-right: 1px solid #d6cbba; }
+.edit .logo { font-size: 1.6rem; color: var(--koa-teal); }
+.edit .side a { color: var(--koa-text-muted); border-radius: 0; border-bottom: 1px solid transparent; }
+.edit .side a.active { color: var(--koa-blue); border-bottom-color: var(--koa-blue); font-style: italic; }
+.edit .top h1 { font-size: 2.1rem; max-width: 12ch; line-height: 1.1; }
+.edit .btn { background: var(--koa-blue); color: var(--koa-cream); border-radius: 0; }
+.edit .card, .edit .panel { background: #faf7f2; border-top: 2px solid var(--koa-blue); border-radius: 0; }
+.edit .card strong { font-size: 1.6rem; }
+.edit th { font-style: italic; color: var(--koa-gray); border-bottom: 1px solid var(--koa-blue); }
+.edit td { border-bottom: 1px solid #e7e0d4; }
+.edit .tag { font-style: italic; border-bottom: 1px solid currentColor; padding: 0; background: transparent; color: var(--koa-teal); }
+.edit .tag.warn { color: var(--koa-orange); }

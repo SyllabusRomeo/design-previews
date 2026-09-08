@@ -1,0 +1,35 @@
+.aurora {
+  color: var(--koa-blue);
+  background:
+    radial-gradient(at 20% 20%, var(--koa-lavender) 0, transparent 40%),
+    radial-gradient(at 80% 10%, rgba(0,174,141,.35) 0, transparent 35%),
+    radial-gradient(at 50% 80%, rgba(0,204,153,.35) 0, transparent 40%),
+    radial-gradient(at 90% 70%, rgba(255,215,0,.3) 0, transparent 35%),
+    var(--koa-cloud);
+  background-attachment: fixed;
+}
+.aurora .back {
+  background: rgba(255,255,255,.55); border: 1px solid rgba(255,255,255,.7);
+  border-radius: 999px; backdrop-filter: blur(12px); color: var(--koa-blue);
+}
+.aurora .side {
+  margin: 0.75rem; border-radius: 24px; background: rgba(255,255,255,.45);
+  border: 1px solid rgba(255,255,255,.65); backdrop-filter: blur(18px);
+}
+.aurora .side a { border-radius: 14px; color: var(--koa-text-muted); }
+.aurora .side a.active {
+  background: linear-gradient(135deg, rgba(0,174,141,.3), rgba(0,16,159,.2)); color: var(--koa-blue);
+}
+.aurora .btn {
+  border-radius: 14px; color: #fff;
+  background: linear-gradient(135deg, var(--koa-blue), var(--koa-teal));
+  box-shadow: 0 10px 30px rgba(0,16,159,.2);
+}
+.aurora .card, .aurora .panel {
+  background: rgba(255,255,255,.55); border: 1px solid rgba(255,255,255,.75);
+  border-radius: 20px; backdrop-filter: blur(14px);
+}
+.aurora th { color: var(--koa-gray); border-bottom: 1px solid rgba(171,171,171,.35); }
+.aurora td { border-bottom: 1px solid rgba(171,171,171,.2); }
+.aurora .tag { background: linear-gradient(135deg, var(--koa-mint), var(--koa-green)); color: #003028; border-radius: 999px; }
+.aurora .tag.warn { background: linear-gradient(135deg, #ffd4c4, var(--koa-lemon)); color: #8a2000; }

@@ -1,0 +1,237 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.portal {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  font-family: var(--koa-font);
+  color: var(--koa-text);
+}
+
+.back {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 50;
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding: 0.45rem 0.7rem;
+  font-family: var(--koa-font);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.side {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-family: var(--koa-font-display);
+  font-weight: 400;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+}
+
+.side nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.side a {
+  text-decoration: none;
+  padding: 0.65rem 0.8rem;
+  color: inherit;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.side a.active { font-weight: 700; }
+
+/* Hard-lock SVG icons — flex + SVG otherwise expands to ~300px intrinsic size */
+.icon,
+svg.icon {
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  flex: 0 0 16px !important;
+  display: block;
+  overflow: hidden;
+}
+
+.icon-sm,
+svg.icon-sm {
+  width: 12px !important;
+  height: 12px !important;
+  min-width: 12px !important;
+  min-height: 12px !important;
+  max-width: 12px !important;
+  max-height: 12px !important;
+  flex: 0 0 12px !important;
+}
+
+.main {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.top h1 {
+  font-family: var(--koa-font-display);
+  font-size: 1.7rem;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+
+.sub {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+  font-weight: 400;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1.1rem;
+  font-family: var(--koa-font);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.9rem;
+}
+
+.card {
+  position: relative;
+  padding: 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 0;
+}
+
+.card-icon {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.card-icon .icon,
+.card-icon svg {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  flex: 0 0 18px !important;
+}
+
+.card .label {
+  font-size: 0.8rem;
+  opacity: 0.75;
+  padding-right: 1.75rem;
+}
+
+.card strong {
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.panel { padding: 1.1rem; overflow: hidden; }
+
+.panel h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.panel h2 .icon,
+.panel h2 svg {
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  flex: 0 0 16px !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.7rem 0.4rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.tag .icon,
+.tag svg {
+  width: 12px !important;
+  height: 12px !important;
+  min-width: 12px !important;
+  min-height: 12px !important;
+  max-width: 12px !important;
+  max-height: 12px !important;
+  flex: 0 0 12px !important;
+}
+
+@media (max-width: 960px) {
+  .portal { grid-template-columns: 1fr; }
+  .side { flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .side nav { flex-direction: row; flex-wrap: wrap; }
+  .kpis { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .kpis { grid-template-columns: 1fr; }
+  .top { flex-direction: column; }
+}

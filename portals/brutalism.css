@@ -1,0 +1,22 @@
+.brute {
+  color: var(--koa-black);
+  background: var(--koa-cloud);
+}
+.brute .back { background: #fff; color: #000; border: 3px solid #000; text-transform: uppercase; }
+.brute .side { background: var(--koa-blue); color: #fff; border-right: 6px solid var(--koa-orange); }
+.brute .logo { text-transform: uppercase; letter-spacing: 0.04em; color: var(--koa-gold); }
+.brute .side a { text-transform: uppercase; font-size: 0.85rem; border: 2px solid transparent; }
+.brute .side a.active { border-color: #fff; background: var(--koa-orange); color: #fff; }
+.brute .top h1 { text-transform: uppercase; }
+.brute .btn {
+  background: var(--koa-orange); color: #fff; border: 3px solid #000;
+  text-transform: uppercase; box-shadow: 6px 6px 0 #000;
+}
+.brute .card, .brute .panel {
+  background: #fff; border: 3px solid #000; box-shadow: 8px 8px 0 #000; border-radius: 0;
+}
+.brute table { border: 3px solid #000; }
+.brute th { background: var(--koa-blue); color: #fff; text-transform: uppercase; font-size: 0.75rem; }
+.brute td { border-bottom: 2px solid #000; border-right: 2px solid #000; }
+.brute .tag { background: var(--koa-teal); color: #fff; border-radius: 0; text-transform: uppercase; }
+.brute .tag.warn { background: var(--koa-orange); }

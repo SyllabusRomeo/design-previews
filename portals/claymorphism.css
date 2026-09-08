@@ -1,0 +1,32 @@
+.clay {
+  color: var(--koa-blue);
+  background: var(--koa-lavender);
+}
+.clay .back {
+  background: var(--koa-soft-yellow); color: var(--koa-blue); border-radius: 999px;
+  box-shadow: 0 6px 0 var(--koa-gold), inset 0 3px 6px rgba(255,255,255,.7);
+}
+.clay .side {
+  background: var(--koa-mint); border-radius: 0 36px 36px 0;
+  box-shadow: 10px 0 0 var(--koa-teal), inset -6px -8px 16px rgba(0,0,0,.08), inset 6px 8px 14px rgba(255,255,255,.55);
+}
+.clay .side a {
+  border-radius: 22px; background: var(--koa-white);
+  box-shadow: 0 5px 0 #b8ddd0, inset 0 3px 6px rgba(255,255,255,.65); color: var(--koa-blue);
+}
+.clay .side a.active { background: var(--koa-green); color: #003028; box-shadow: 0 5px 0 #009970; }
+.clay .btn {
+  border-radius: 999px; background: var(--koa-orange); color: #fff;
+  box-shadow: 0 7px 0 #cc3700, inset 0 3px 8px rgba(255,255,255,.35);
+}
+.clay .card, .clay .panel {
+  background: var(--koa-white); border-radius: 28px;
+  box-shadow: 0 10px 0 #cfc6e8, inset 0 4px 10px rgba(255,255,255,.85);
+}
+.clay .card:nth-child(2) { background: var(--koa-mint); box-shadow: 0 10px 0 #9fd9c8; }
+.clay .card:nth-child(3) { background: var(--koa-lemon); box-shadow: 0 10px 0 #e6d98a; }
+.clay .card:nth-child(4) { background: var(--koa-cream); box-shadow: 0 10px 0 #e0d0b0; }
+.clay th { color: var(--koa-gray); }
+.clay td { border-bottom: 2px solid var(--koa-lavender); }
+.clay .tag { border-radius: 999px; background: var(--koa-mint); color: #003028; box-shadow: 0 3px 0 var(--koa-teal); }
+.clay .tag.warn { background: #ffd4c4; color: #8a2000; box-shadow: 0 3px 0 var(--koa-orange); }
